@@ -1,0 +1,295 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4d5463;
+    color: #2f3033;
+    line-height: 1.6;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1800px; /* Adjust max-width as needed */
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Header styles */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+.address{
+    text-align: center;
+}
+
+.logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(1, 206, 45);
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #365e10;
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+/* Updated CSS styles for media page */
+
+main.media {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 50%; /* Each container takes half the screen width */
+    padding: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.image-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto;
+    display: block; /* Remove extra space below images */
+    margin-bottom: 10px; /* Space between images and descriptions */
+}
+
+.image-container p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+h2 {
+    color: #000000;
+}
+
+.main {
+    padding: 20px;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.services {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.intro {
+    padding: 40px; /* Add padding around the content for better spacing */
+    background-color: #f8f8f8; /* Light background color for the section */
+}
+
+.intro h2 {
+    color: #333; /* Dark color for headings */
+    font-size: 24px; /* Adjust heading font size */
+    margin-bottom: 20px; /* Add space below headings */
+}
+
+.intro p {
+    color: #666; /* Slightly darker text color for paragraphs */
+    line-height: 1.6; /* Increase line height for better readability */
+    margin-bottom: 15px; /* Add space below paragraphs */
+}
+
+.intro::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.address {
+    margin-bottom: 30px;
+}
+
+.sponsors {
+    text-align: center;
+}
+
+.sponsor-logos img {
+    max-width: 100px; /* Adjust logo size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.floatleft {
+    margin-right: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+ul.ul {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+ul.ul li {
+    margin-bottom: 10px;
+}
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .twitter {
+    background-image: url('socialmedia-icons/icons8-twitter-50.png');
+  }
+  
+  .youtube {
+    background-image: url('socialmedia-icons/icons8-youtube-50.png');
+  }
+  
+  .instagram {
+    background-image: url('socialmedia-icons/icons8-instagram-50.png');
+  }
+  
+  .facebook {
+    background-image: url('socialmedia-icons/icons8-facebook-50.png');
+  }
+  .tiktok {
+    background-image: url('socialmedia-icons/icons8-tiktok-50.png');
+  }
+
+/* Updated CSS styles for the contact page */
+
+/* Form styles */
+form#contact {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form#contact label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form#contact input[type="text"],
+form#contact input[type="tel"],
+form#contact select,
+form#contact textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form#contact input[type="submit"],
+form#contact input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00ff22; /* Change to your desired button color */
+    color: #fff;
+    cursor: pointer;
+}
+
+form#contact input[type="submit"]:hover,
+form#contact input[type="reset"]:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+/* Optional: Style required fields */
+form#contact input:required {
+    border-color: #dc3545; /* Red border for required fields */
+}
+
+/* Optional: Add styles for radio buttons */
+form#contact input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Optional: Style the preferred method of contact section */
+form#contact p {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Optional: Add spacing and styling to form elements */
+form#contact textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+/* Optional: Add a subtle hover effect to form elements */
+form#contact input[type="text"]:hover,
+form#contact input[type="tel"]:hover,
+form#contact select:hover,
+form#contact textarea:hover {
+    border-color: #007bff; /* Change to your desired hover color */
+}
+
+/* Optional: Add a box shadow effect on focus for input elements */
+form#contact input:focus,
+form#contact select:focus,
+form#contact textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5); /* Adjust shadow color and intensity */
+}
+
+
+/* Footer styles */
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
