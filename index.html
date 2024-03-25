@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--Rudy Mendez-->
-        <title>GoonSpec Industries</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel='icon' href='favicon.ico' type='image/x-icon'/> 
-        <link rel="stylesheet" href="styles.css">      
-        <!--[if	lt	IE	9]>					
-        <script	src="html5shiv.js"></script>	
-        <![endif]-->
-    </head>
-    <body>
-        <div id="wrapper">
-        <header>
-            <img src="GoonSpec.jpg" class ="logo" alt="Snail"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoonSpec Industries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header class="header">
+            <img src="images/GoonSpec.png" class="logo" alt="Snail">
             <h1>GoonSpec Industries</h1>
-        </header> 
-        <nav class="activePage">
+        </header>
+        <nav class="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="media.html">Media</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <main>
-            <h2 class="goon"> What is GoonSpec? </h2>
-            <p> GoonSpec Industries is more than an automotive passion, it's a burning passion that we turned into a lifestyle with a huge impact on the local automotive community. We are an all in one shop that does everything when it comes to the automotive world.</p>
-            <img src="amg.jpg" class ="floatleft" alt="mercedes">
-            <h2>Our Service</h2>
-            <ul class="ul">
-                <li>Automotive Detailing</li><br>
-                <li>Engine Performance </li><br>
-                <li>Welding & Custom Fabrication</li><br>
-                <li>Interioir & Exterior Accessories</li><br>
-                <li>Window Tint & PPF</li><br>
-                <li>Merchandise</li><br>
-            </ul>
-            <address>
-                GoonSpec Industries <br>
-                1320 W Melinda ln <br>
-                Phoenix,AZ 85027 <br>
-                Hours:<br>
-                Mon-Sat<br>
-                5am-4pm<br>
-            </address>
-            <section class="brands">
+        <main class="main">
+            <section class="intro">
+                <h2 class="goon">What is GoonSpec?</h2>
+                <p>GoonSpec Industries is more than an automotive passion; it's a lifestyle with a huge impact on the local automotive community. We offer a wide range of services to meet all your automotive needs.</p>
+
+                <h2>About us</h2>
+                <p>At GoonSpec, we are more than just a business – we are a family passionate about cars and committed to providing exceptional service to our community. With years of experience in the automotive industry, we have built a reputation for quality workmanship, honesty, and personalized customer care. </p>
+                <img src="images/welding.jpg" class="floatleft" alt="Mercedes">
+            </section>
+            <section class="services">
+                <h2>   Our Services</h2>
+                <ul>
+                    <li>Automotive Detailing</li>
+                    <li>Automotive Repairs </li>
+                    <li>Customization</li>
+                    <li>Engine Performance</li>
+                    <li>Parts and Accessories</li>
+                    <li>Japan Oil and Filters</li>
+                    <li>Welding & Custom Fabrication</li>
+                    <li>Interior & Exterior Accessories</li>
+                    <li>Window Tint & PPF</li>
+                    <li>CNC Parts </li>
+                    <li>Merchandise</li>
+                    <li>Car Wash</li>
+                </ul>
+                <section>
+                    <div id="media">
+                        <div class="media-section">
+                          <h2>Follow Us on Social Media</h2>
+                          <div class="social-icons">
+                            <a href="#" class="social-icon twitter"></a>
+                            <a href="#" class="social-icon youtube"></a>
+                            <a href="#" class="social-icon instagram"></a>
+                            <a href="#" class="social-icon facebook"></a>
+                            <a href="#" class="social-icon tiktok"></a>
+                          </div>
+                        </div>
+                      </div>
+                </section>
+
+
+                <h2>Visit Us Today</h2>
+                <p>Whether you need a tune-up, repairs, or simply want to chat about cars, GoonSpec is here for you. Visit our shop in North Phoenix, and let's talk about how we can take care of your automotive needs. </p>
+            </section>
+            <section class="address">
+                <h2>Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11167.581628282589!2d-112.07591428507781!3d33.679390167000925!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6f8b909d7c23%3A0x2b52fae7b5830e64!2sPhoenix%20Deer%20Valley%20Airport!5e0!3m2!1sen!2sus!4v1711398118206!5m2!1sen!2sus" width="1000" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="sponsors">
                 <h2>Our Sponsors</h2>
-                <img src="Toyo.jpg" class ="brands" alt="toyo">
-                <img src="motys.jpg" class ="brands" alt="moty">
-                <img src="rays.jpg" class ="brands" alt="ray">
-                <img src="meguires.jpg" class ="brands" alt="meg">
-                <img src="Bride.png" class ="brands" alt="bride">
-
-
+                <div class="sponsor-logos">
+                    <img src="images/Toyo.jpg" alt="Toyo">
+                    <img src="images/motys.jpg" alt="Moty">
+                    <img src="images/rays.jpg" alt="Ray">
+                    <img src="images/meguires.jpg" alt="Meguires">
+                    <img src="images/Bride.jpg" alt="Bride">
+                </div>
             </section>
         </main>
-        <footer>
-            Copyright &copy; 2019 GoonSpec Industries *For educational purposes only*
+        <footer class="footer">
+            <img src="images/GoonSpec.png" class="logo" alt="Snail">
+            <p>&copy; 2019 GoonSpec Industries</p>
+            <p>*For educational purposes only*</p>
         </footer>
-        </div><!--Closes Wrapper-->
-    </body>
+    </div><!-- Closes Wrapper -->
+</body>
 </html>
